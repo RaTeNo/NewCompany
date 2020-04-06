@@ -453,9 +453,11 @@ $(function(){
 		}
 	})
 
-	$('aside .filter .close, .overlay').click(function(e){
+	$('aside .filter .close, .overlay, aside .block .title .close').click(function(e){
+		e.preventDefault()
 	    $('aside .mob_filter_link').removeClass('active')
 		$('aside .filter').fadeOut(200)
+		$('.overlay').fadeOut(200)
 	})
 
 

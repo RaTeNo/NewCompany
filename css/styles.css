@@ -568,7 +568,7 @@ body.lock {
 .text_block> :first-child,
 .text_block blockquote> :first-child,
 .text_block q> :first-child {
-    margin-top: 0 !important;
+    /*margin-top: 0 !important;*/
 }
 
 .text_block p,
@@ -581,6 +581,7 @@ body.lock {
 .text_block img {
     display: block;
     max-width: 100%;
+    border-radius: 28px;
 }
 
 .text_block img.left {
@@ -807,8 +808,8 @@ header .logo {
     margin-right: auto;
 }
 
-header .logo,
-header .logo a {
+header .logo
+ {
     color: var(--main_color2);
     font-size: 16px;
     line-height: 21px;
@@ -817,6 +818,10 @@ header .logo a {
     text-decoration: none;
     letter-spacing: 2.49px;
     text-transform: uppercase;
+}
+header .logo a{
+    text-decoration: none;
+    color: var(--main_color1);
 }
 
 header .logo .name {
@@ -894,10 +899,11 @@ header .contacts .email:before {
 header .contacts .email a:hover {
     text-decoration: underline;
 }
-
+header .contacts div:first-child{    
+    margin-bottom: 10px;
+}
 header .contacts .phones {
     display: flex;
-    margin-top: 10px;
     justify-content: flex-start;
     align-items: center;
     align-content: center;
@@ -1322,6 +1328,7 @@ aside .block .title .close {
     border: none;
     border-radius: 4px;
     background: #c8c8c8 url(../images/ic_close.svg) 50% no-repeat;
+    display: none;
 }
 
 aside .block .data {
@@ -4024,7 +4031,6 @@ opacity:0.3;
 }
 
 .cart_info .product .video_link {
-    color: #7e7e7e;
     font-size: 14px;
     line-height: 17px;
     margin-top: 14px;
@@ -4077,6 +4083,12 @@ opacity:0.3;
     text-transform: uppercase;
     border: none;
     background: none;
+}
+.cart_info .product .amount .input  { 
+  -moz-appearance: textfield;
+}
+.cart_info .product .amount .input::-webkit-inner-spin-button { 
+  display: none;
 }
 
 .cart_info .product .amount .input {
@@ -5607,6 +5619,7 @@ footer .links {
     margin: 0 auto 44px;
     column-gap: 60px;
     column-count: 3;
+    list-style: none;
 }
 
 footer .links>* {
