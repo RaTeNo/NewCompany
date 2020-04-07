@@ -1506,6 +1506,17 @@
         display: block;
     }
 
+    .news .flex > * {
+        width: calc(50% - 35px);
+        margin-bottom: 35px;
+        margin-left: 35px;
+        padding-bottom: calc(50% - 35px);
+    }
+
+    .news .item {
+        padding-bottom: calc(50% - 35px);
+    }
+
 
 
     /*---------------

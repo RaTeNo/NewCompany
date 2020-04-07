@@ -1158,6 +1158,27 @@
 
         column-gap: 40px;
     }
+    .news .flex{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+
+    .news .flex > * {
+        width: calc(50% - 20px);
+        margin-bottom: 20px;
+        margin-left: 20px;
+        padding-bottom: calc(50% - 20px);
+    }
+
+    .news .item {
+        padding-bottom: calc(50% - 20px);
+    }
+
+    .news_category > div {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
 
 
 

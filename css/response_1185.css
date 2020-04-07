@@ -1072,6 +1072,25 @@
         left: 20px;
     }
 
+    .news .flex {
+        margin-bottom: -25px;
+        margin-left: -25px;
+    }
+
+
+    .news .flex > * {
+        width: calc(33.333% - 25px);
+        margin-bottom: 25px;
+        margin-left: 25px;
+    }
+
+    .news .item {
+        padding-bottom: calc(33.333% - 25px);
+        border-radius: 44px;
+    }
+
+
+
 
 
     /*---------------

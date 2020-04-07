@@ -729,6 +729,28 @@
         column-gap: 20px;
     }
 
+    .news .flex{
+        margin-bottom: -20px;
+        margin-left: -20px;
+    }
+    
+    .news .flex > * {
+        width: calc(100% - 20px);
+        padding-bottom: calc(100% - 20px);
+    }
+
+    .news .item {
+        padding-bottom: calc(100% - 20px);
+    }
+
+     .news_category > div {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+
+
+
+
 
 
     /*---------------
