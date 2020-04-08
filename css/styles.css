@@ -4007,7 +4007,8 @@ opacity:0.3;
 }
 
 .cart_info .product .info {
-    width: calc(100% - 542px);
+	width: calc(100% - 720px);
+	margin-right: auto;
 }
 
 .cart_info .product .name {
@@ -4015,7 +4016,7 @@ opacity:0.3;
     font-size: 18px;
     font-weight: 500;
     line-height: 21px;
-    width: 485px;
+    width: 350px;
     max-width: 100%;
 }
 
@@ -4052,14 +4053,13 @@ opacity:0.3;
     font-size: 17px;
     font-weight: 500;
     line-height: 19px;
-    width: 130px;
     white-space: nowrap;
     text-transform: uppercase;
     opacity: .52;
 }
 
 .cart_info .product .amount {
-    width: 145px;
+
 }
 
 .cart_info .product .amount .box {
@@ -4110,7 +4110,7 @@ opacity:0.3;
 .cart_info .product .price.total {
     color: #000;
     font-weight: bold;
-    width: 110px;
+    margin-right: 40px;
     opacity: 1;
 }
 
@@ -5188,6 +5188,8 @@ button:disabled{
     width: 100%;
     min-width: 100px;
     min-height: 100px;
+    height: 100%;
+    object-fit: cover;
 }
 
 .three_photo .photo .img1 {
@@ -5205,6 +5207,7 @@ button:disabled{
     display: block;
     overflow: hidden;
     width: 220px;
+    height: 300px;
     margin-top: -230px;
     transform: rotate(11deg);
     border: 9px solid #fff;
@@ -5222,6 +5225,7 @@ button:disabled{
     transform: rotate(-11deg);
     border: 9px solid #fff;
     border-radius: 51px;
+    height: 240px;
 }
 
 .socials_block .data {

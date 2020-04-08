@@ -470,7 +470,7 @@
 
     .cart_info .product .info
     {
-        width: calc(100% - 320px);
+        width: calc(100% - 400px);
     }
 
     .cart_info .product .name
@@ -1349,7 +1349,7 @@
     {
         width: 140px;
         margin-top: -155px;
-
+		height: 200px;
         border-radius: 39px;
     }
 
@@ -1357,6 +1357,7 @@
     {
         width: 125px;
         margin-top: 10px;
+		 height: 194px;
 
         border-radius: 35px;
     }
