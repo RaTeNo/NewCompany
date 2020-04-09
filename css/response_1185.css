@@ -282,8 +282,8 @@
     {
         width: 360px;
         padding-bottom: 350px;
-
-        border-radius: 44px;
+        border-radius: 44px;        
+		margin-right: 30px;
     }
 
 
@@ -319,7 +319,7 @@
     .product_info .buy .buy_link,
     .product_info .buy .order_link
     {
-        width: 270px;
+        width: 230px;
     }
 
     .product_info .desc

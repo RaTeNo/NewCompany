@@ -4259,7 +4259,7 @@ button:disabled{
 
 .product_info .cont {
     position: relative;
-    display: flex;
+    display: block;
     justify-content: space-between;
     align-items: flex-start;
     align-content: flex-start;
@@ -4279,6 +4279,8 @@ button:disabled{
     padding-bottom: 394px;
     border-radius: 55px;
     background: #ddd;
+    float: left;
+    margin-right: 47px;
 }
 
 .product_info .image img {
