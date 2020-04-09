@@ -612,8 +612,8 @@ $(function(){
         if( size < 16 ) {
         	size = 16
         }
-
-        $(this).css('font-size', size + 'px')
+        size2 = size+4
+        $(this).css('font-size', size + 'px').css('line-height', size2 + 'px')
     })
 
     $('.resizeble-font2').each(function () {
