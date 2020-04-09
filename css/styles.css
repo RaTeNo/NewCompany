@@ -1084,13 +1084,14 @@ header .menu .flexMenu-viewMore.active>a {
 
 header .menu .flexMenu-popup {
     z-index: 9;
-    top: calc(100% + 2px);
+    top: calc(100% + 0px);
     right: 0;
     left: auto;
     min-width: 100%;
     padding: 0;
     border-radius: 28px;
     background: var(--main_color2);
+    border-top: 2px solid #fff;
 }
 
 header .menu .flexMenu-popup>* {

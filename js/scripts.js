@@ -431,10 +431,11 @@ $(function(){
 
 
 	// Меню в шапке
-	$('header .menu').flexMenu({
+	$('header .menu').flexMenu({		
+		showOnHover: true,
 		linkText: '<span>ОСТАЛЬНОЕ</span>',
 		linkTitle: '',
-		linkTextAll: 'Меню'
+		linkTextAll: 'Меню',
 	})
 
 
