@@ -1420,7 +1420,7 @@ aside .cats .data>*+* {
     margin-top: 5px;
 }
 aside .cats .data .data2{
-        height: 310px;
+    max-height: 310px;
     position: relative;
     z-index: 2;
     overflow-y: scroll;

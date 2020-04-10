@@ -235,6 +235,7 @@
 
         border-radius: 0;
         background: none;
+        border:none;
     }
 
     header .menu .flexMenu-popup .item a,
@@ -266,6 +267,7 @@
         padding: 5px 0;
 
         border-radius: 0;
+        border:none;
     }
 
     header .menu .item > a.touch_link + .sub_menu.show
@@ -1362,7 +1364,11 @@
 
         border-radius: 35px;
     }
-
+    
+    .socials_block .socials{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
 
 
     .socials_block .data
@@ -1384,6 +1390,7 @@
     {
         width: 50px;
         height: 50px;
+        margin-bottom:10px;
     }
 
 

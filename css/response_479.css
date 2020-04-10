@@ -675,11 +675,23 @@
     {
         margin-top: 20px;
     }
+    
+    .socials_block .socials a + a {
+        margin-left: 10px;
+    }
 
-    .socials_block .socials img
-    {
-        width: 44px;
-        height: 44px;
+    .socials_block .socials img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .order_block .form .socials a + a {
+        margin-left: 10px;
+    }
+
+    .order_block .form .socials img{
+        width: 30px;
+        height: 30px;
     }
 
 
