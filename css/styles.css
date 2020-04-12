@@ -837,6 +837,7 @@ header .logo .name {
 header .logo img {
     display: block;
     max-width: 100%;
+    max-height: 120px;
 }
 
 header .socials {
@@ -850,6 +851,42 @@ header .socials {
 }
 
 header .socials a {
+    display: block;
+}
+
+header .socials a.more{
+    background-color: var(--main_color1);
+    border-radius: 50%;
+    position: relative;
+}
+header .socials a.more .arrow{
+    position: absolute;
+    padding: 0px 14px;
+    padding-bottom: 10px;
+    top: 32px;
+    display: none;
+}
+
+header .socials a.more svg{
+    fill:var(--main_color1);
+}
+
+header .socials a.more .more_block{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+header .socials a.more:hover .more_block{
+    display: flex;
+}
+header .socials a.more:hover .arrow{
     display: block;
 }
 
@@ -901,7 +938,7 @@ header .contacts .email:before {
 header .contacts .email a:hover {
     text-decoration: underline;
 }
-header .contacts div:first-child{    
+header .contacts > div:first-child{    
     margin-bottom: 10px;
 }
 header .contacts .phones {
@@ -999,7 +1036,6 @@ header .menu .item:hover>a.touch_link+.sub_menu {
     min-width: 100%;
     transition: .2s linear;
     opacity: 0;
-    border: 2px solid #fff;
     border-radius: 28px;
     background: var(--main_color2);
 }
@@ -1091,7 +1127,6 @@ header .menu .flexMenu-popup {
     padding: 0;
     border-radius: 28px;
     background: var(--main_color2);
-    border-top: 2px solid #fff;
 }
 
 header .menu .flexMenu-popup>* {
@@ -1258,6 +1293,43 @@ header .menu .flexMenu-popup .item>a.touch_link+.sub_menu.show {
     display: block;
     width: 35px;
     height: 35px;
+}
+
+
+.mob_header .socials a.more{
+    background-color: var(--main_color1);
+    border-radius: 50%;
+    position: relative;
+}
+.mob_header .socials a.more .arrow{
+    position: absolute;
+    padding: 0px 12px;
+    padding-bottom: 10px;
+    top: 32px;
+    display: none;
+}
+
+.mob_header .socials a.more svg{
+    fill:var(--main_color1);
+}
+
+.mob_header .socials a.more .more_block{
+    background: #FFFFFF;
+    box-shadow: 0px 12px 23px rgba(0, 0, 0, 0.14);
+    border-radius: 15px;
+    position: absolute;
+    top: 60px;
+    padding: 15px;
+    right: 0;
+    z-index: 100;
+    display: none;
+}
+
+.mob_header .socials a.more:hover .more_block{
+    display: flex;
+}
+.mob_header .socials a.more:hover .arrow{
+    display: block;
 }
 
 .mob_header .mob_menu_link {
@@ -5550,8 +5622,8 @@ button:disabled{
     color: #68adff;
     display: inline-block;
     vertical-align: top;
-    white-space: nowrap;
     letter-spacing: 1.27px;
+    word-break: break-all;
 }
 
 .contacts_info .info .val a.ic_whatsapp {
@@ -5760,4 +5832,164 @@ footer .links a:hover {
 
 .error{
     border:1px solid red !important;
+}
+
+/*file ulpload*/
+
+.file-uploader {
+
+}
+
+.file-uploader__message-area {
+
+}
+
+.file-list {
+    display: flex;
+    margin-top: 30px;
+    margin-bottom: -20px;
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.file-list__name {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.file-list li {
+color: #7c7c7c;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 22px;
+    display: flex;
+    min-height: 28px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    text-align: left;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.removal-button {
+    padding: 8px 10px;
+    margin-left: 10px;
+    border: none;
+    background-color: var(--main_color1);
+    color: white;
+    cursor: pointer;
+}
+.removal-button::before {
+  content: "X";
+}
+.removal-button:focus {
+  outline: 0;
+}
+
+.file-chooser {
+  
+}
+.file-chooser p {
+  font-size: 18px;
+  padding-top: 1em;
+}
+
+.file-chooser label{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 48px;
+    display: inline-block;
+    width: 155px;
+    height: 48px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    letter-spacing: 1.32px;
+    border-radius: 18px;
+    background: var(--main_color1);
+    box-shadow: 0 7px 17px var(--box-shadow-color);
+}
+
+.file-uploader {
+  max-width: 400px;
+  height: auto;
+  margin: 2em auto;
+}
+.file-uploader * {
+  display: block;
+}
+.file-uploader input[type=submit] {
+  margin-top: 2em;
+  float: right;
+}
+
+.file-list {
+}
+
+.file-list__name {
+    margin-left: 15px;
+}
+
+.removal-button {
+  display: inline-block;
+  height: 100%;
+  float: right;
+}
+
+.file-chooser {
+
+}
+
+.file-chooser__input {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 55px;
+    display: inline-block;
+    height: 55px;
+    cursor: pointer;
+    text-align: center;
+    vertical-align: top;
+    border-radius: 4px;
+    background: var(--main_color1);
+    border:none;
+}
+
+.file-uploader__submit-button {
+  width: 100%;
+  border: none;
+  font-size: 1.5em;
+  padding: 1em;
+  background-color: #72bfa7;
+  color: white;
+}
+.file-uploader__submit-button:hover {
+  background-color: #a7d7c8;
+}
+
+
+.upload .hidden {
+  display: none;
+}
+.upload .hidden input {
+  display: none;
+}
+
+.upload .error {
+  background-color: #d65d38;
+  color: white;
+}
+
+.upload  .file-uploader * svg{
+    fill:var(--main_color1);
+}
+
+.upload .form .file .list{
+    margin-left:0px;
 }

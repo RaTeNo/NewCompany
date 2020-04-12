@@ -785,6 +785,11 @@
 	    opacity: .4;
 	}
 
+    .product_info .buy .btn{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
 
     /*---------------
         PopUp

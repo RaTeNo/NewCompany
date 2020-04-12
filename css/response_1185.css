@@ -313,7 +313,9 @@
 
     .product_info .buy .back_link
     {
-        display: none;
+        order: -1;
+        width: 100%;
+        margin-bottom: 25px;
     }
 
     .product_info .buy .buy_link,

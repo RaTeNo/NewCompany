@@ -438,6 +438,51 @@ $(function(){
 		linkTextAll: 'Меню',
 	})
 
+	//социальные сети
+	if($('.mob_scroll .socials a').length>4)
+	{
+		$(".mob_scroll .socials a").eq(2).after($('<a href="/" class="more"><img src="./images/dot2.svg" alt=""><div class="arrow"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5L0 0L9 0L4.5 5Z" fill=""/></svg></div><div class="more_block"></div></a>'));
+		$('.mob_scroll .socials a').each(function( index, element ) {
+			if(index>3)
+			{
+				$(element).clone(true).appendTo(".mob_scroll .more_block");
+				(element).remove();
+			}
+		});
+	}
+	$('body').on('click', '.mob_scroll .more_block a', function(e) {
+		var href = $(this).attr('href');
+      	window.open(href, '_blank');
+	});
+
+	$('body').on('click', '.mob_scroll a.more', function(e) {
+    	e.preventDefault()
+    });
+
+
+	if($('.mob_header .socials a').length>4)
+	{
+		$(".mob_header .socials a").eq(2).after($('<a href="/" class="more"><img src="./images/dot2.svg" alt=""><div class="arrow"><svg width="9" height="5" viewBox="0 0 9 5" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M4.5 5L0 0L9 0L4.5 5Z" fill=""/></svg></div><div class="more_block"></div></a>'));
+		$('.mob_header .socials a').each(function( index, element ) {
+			if(index>3)
+			{
+				$(element).clone(true).appendTo(".mob_header .more_block");
+				(element).remove();
+			}
+		});
+	}
+	$('body').on('click', '.mob_header .more_block a', function(e) {
+		var href = $(this).attr('href');
+      	window.open(href, '_blank');
+	});
+
+
+	$('body').on('click', '.mob_header a.more', function(e) {
+    	e.preventDefault()
+    });
+
+
+
 
 	// Фильтр
 	$('body').on('click', 'aside .mob_filter_link', function(e) {
@@ -689,9 +734,7 @@ $(function(){
 
 	    let rgba_opacity = hexDec(color2);
 
-	    root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.1)");
-
-	    
+	    root.style.setProperty('--main_color_opacity', "rgba("+rgba_opacity+",0.1)");	    
     }
 
 
