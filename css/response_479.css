@@ -789,7 +789,10 @@
         margin-left: auto;
         margin-right: auto;
     }
-
+    
+    #thanks .icon img{width:105px;}
+    #thanks .title{font-size:22px;line-height:28px;}
+    #thanks .desc{font-size:18px;line-height:24px;}
 
     /*---------------
         PopUp

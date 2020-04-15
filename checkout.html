@@ -370,6 +370,20 @@
 		<div class="supports_error">
 			Ваш браузер устарел рекомендуем обновить его до последней версии<br> или использовать другой более современный.
 		</div>
+		
+
+		<section class="modal" id="thanks">
+			<div class="icon">
+				<img src="images/ic_success.svg" alt="">
+			</div>
+
+			<div class="title">Спасибо за <span>Заказ</span></div>
+
+			<div class="desc">Мы перезвоним вам в течении рабочего времени</div>
+		</section>
+		
+
+		
 
 
 		<!-- Подключение javascript файлов -->
@@ -386,5 +400,15 @@
 		<script src="js/before-after.min.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
+
+
+		<script>
+			$.fancybox.open({
+				src  : '#thanks',
+				type : 'inline',
+				touch : false
+			})
+		</script>
+
 	</body>
 </html>

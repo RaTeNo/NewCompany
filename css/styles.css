@@ -652,7 +652,6 @@ body.lock {
     text-align: center;
     vertical-align: top;
     text-decoration: none;
-    letter-spacing: 2px;
     opacity: .28;
     border-radius: 50%;
     background: var(--main_color2);
@@ -2038,7 +2037,9 @@ aside>*:last-child {
 
 .main_slider3 .img img {
     display: block;
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin: 0 auto;
     border-radius: 50%;
 }
@@ -3158,6 +3159,7 @@ opacity:0.3;
     display: block;
     width: 100%;
     height: 100%;
+    object-fit: cover;
 }
 
 .stocks .stock .thumb+.info {
@@ -4020,23 +4022,26 @@ opacity:0.3;
 }
 
 .cart_info .titles>*+* {
-    padding-left: 24px;
+   
 }
 
 .cart_info .titles .col_name {
-    width: calc(100% - 385px);
+    margin-right: auto;
 }
 
 .cart_info .titles .col_price {
-    width: 130px;
+    width: 150px;
+    text-align: center;
 }
 
 .cart_info .titles .col_amount {
-    width: 145px;
+    width: 110px;
+    text-align: center;
 }
 
 .cart_info .titles .cal_total {
-    width: 110px;
+    width: 186px;
+    text-align: center;
 }
 
 .cart_info .product {
@@ -4131,6 +4136,8 @@ opacity:0.3;
     white-space: nowrap;
     text-transform: uppercase;
     opacity: .52;
+    min-width: 160px;
+    text-align: center;
 }
 
 .cart_info .product .amount {
@@ -5275,6 +5282,7 @@ button:disabled{
     width: 100%;
     border-radius: 118px;
     box-shadow: inset 0 1px 3px rgba(0, 0, 0, .5);
+    height: 615px;
 }
 
 .three_photo .photo .img2 {
@@ -5496,7 +5504,7 @@ button:disabled{
     color: #fff;
     font-family: var(--font_family);
     font-size: 10px;
-    font-weight: 500;
+    font-weight: 700;
     line-height: 39px;
     display: block;
     min-width: 115px;
@@ -5504,10 +5512,11 @@ button:disabled{
     margin-left: 20px;
     padding: 0 30px;
     cursor: pointer;
+    letter-spacing: 1.32px;
     text-decoration: none;
     border: none;
     border-radius: 18.5px;
-    background:var(--main_color1);
+    background: var(--main_color1);
     box-shadow: 0 6px 13px var(--box-shadow-color);
 }
 
@@ -5659,6 +5668,7 @@ button:disabled{
     overflow: hidden;
     height: 480px;
     background: #ddd;
+    margin-bottom: 40px;
 }
 
 
@@ -5993,3 +6003,25 @@ color: #7c7c7c;
 .upload .form .file .list{
     margin-left:0px;
 }
+
+.modal {
+    display: none;
+    visibility: visible !important;
+    width: 625px;
+    max-width: 100%;
+    padding: 70px 90px;
+    border-radius: 10px;
+    background: #fff;
+    text-align: center;
+}
+
+.fancybox-slide--html .fancybox-close-small{
+    opacity: 1;
+}
+
+
+#thanks .icon img{display:block;max-width:100%;margin:0 auto;}
+#thanks .title{color:#0b162b;font-size:37px;font-weight:bold;line-height:61px;margin-top:10px;}
+#thanks .title span{color:var(--main_color2);}
+#thanks .desc{color:#b5b5b5;font-size:33px;font-weight:500;line-height:49px;margin-top:10px;}
+

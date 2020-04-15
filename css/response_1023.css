@@ -472,7 +472,7 @@
 
     .cart_info .product .info
     {
-        width: calc(100% - 400px);
+        width: calc(100% - 410px);
     }
 
     .cart_info .product .name
@@ -1346,6 +1346,7 @@
     .three_photo .photo .img1
     {
         border-radius: 75px;
+        height:520px;
     }
 
     .three_photo .photo .img2
@@ -1525,7 +1526,10 @@
     .news .item {
         padding-bottom: calc(50% - 35px);
     }
-
+    
+    #thanks .icon img{width:125px;}
+    #thanks .title{font-size:28px;line-height:36px;}
+    #thanks .desc{font-size:24px;line-height:30px;}
 
 
     /*---------------

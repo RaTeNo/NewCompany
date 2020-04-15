@@ -86,12 +86,16 @@ $(function(){
 				let arrW = $(event.target).find('.owl-nav button').width()
 				let dotsOffset = $(event.target).find('.owl-dots').offset()
 
+				let dotsW = $(event.target).find('.owl-dots').width()
+
+				console.log(dotsOffset);
+
 				$(event.target).find('.owl-nav button.owl-prev').css(
 					'left', (dotsOffset.left - 10)
 				)
 
 				$(event.target).find('.owl-nav button.owl-next').css(
-					'left', (dotsOffset.left + arrW + 30)
+					'left', (dotsOffset.left  + dotsW )
 				)
 			}, 100)
 		},

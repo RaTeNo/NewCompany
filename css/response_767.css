@@ -1191,10 +1191,19 @@
     .file-list {
          margin-bottom: 40px; 
     }
+    
+    .three_photo .photo .img1{
+        height: 410px;
+    }
 
+    
+    #thanks .icon img{width:115px;}
+    #thanks .title{font-size:25px;line-height:31px;}
+    #thanks .desc{font-size:21px;line-height:29px;}
 
-
-
+    .modal{
+        padding: 25px;
+    }
 
     /*---------------
         PopUp
