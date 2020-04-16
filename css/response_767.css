@@ -1205,6 +1205,10 @@
         padding: 25px;
     }
 
+    .cart_info .product .price.total{
+        text-align: left;
+    }
+
     /*---------------
         PopUp
     ---------------*/
