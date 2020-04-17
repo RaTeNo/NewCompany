@@ -913,8 +913,8 @@
 
     .soc_block .widget
     {
-        margin-left: 82px;
-
+        margin: 0 auto;
+        width: auto;
         order: 3;
     }
 
