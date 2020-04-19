@@ -1208,6 +1208,14 @@
     .cart_info .product .price.total{
         text-align: left;
     }
+    
+    .products_sort b{
+        display: block;
+    }
+    .sorting_switcher li{
+        margin-top: 20px;
+        display: block;
+    }
 
     /*---------------
         PopUp

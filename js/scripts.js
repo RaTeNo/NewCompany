@@ -649,6 +649,20 @@ $(function(){
 		parent.find('.order_link').delay(750).fadeIn(300)
 	})
 
+	// Социальная выпадашка
+	$('header .socials a.more, .mob_header .socials a.more').click(function(e){
+		e.preventDefault()
+		if($(this).hasClass("active"))
+		{
+			$(this).removeClass("active")
+		}
+		else
+		{
+			$(this).addClass("active")
+		}
+		
+	})
+
 
 	// Логотип
 	$('.resizeble-font').each(function () {
