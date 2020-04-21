@@ -2781,6 +2781,7 @@ opacity:0.3;
     display: block;
     text-align: center;
     text-decoration: none;
+    word-wrap: break-word;
 }
 
 .documents .item .icon {
@@ -6085,4 +6086,68 @@ color: #7c7c7c;
 .sorting_switcher li.active{
     color: #2192E9;
     font-weight: 500;
+}
+
+.products_sort_mobile{
+    display: none;
+}
+.schema-order__link{
+    cursor: pointer;
+}
+
+.schema-order__link:after {
+    content: '';
+    width: 0;
+    height: 0;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 7px;
+    margin-left: 2px;
+    border-width: 4px 3.5px 0;
+    border-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.schema-order__popover {
+    width: 270px;
+    padding-right: 10px;
+    position: absolute;
+    top: -10px;
+    left: 0;
+    display: none;
+    border-radius: 3px;
+    background: #fff;
+    box-shadow: 0 5px 15px 0 rgba(0,0,0,.3), 0 0 0 1px rgba(0,0,0,.05);
+    -o-transform: translateY(40px);
+    transform: translateY(40px);
+    -o-transition: all .2s cubic-bezier(0.9,.1,.1,.9);
+    transition: all .2s cubic-bezier(0.9,.1,.1,.9);
+    z-index: 123;
+}
+
+.schema-order__list a{
+    padding: 9px 20px 9px 40px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    text-decoration: none;
+    color:#000;
+}
+.schema-order__list .active:before {
+    width: 12px;
+    height: 15px;
+    content: '';
+    display: block;
+    position: absolute;
+    top: 12px;
+    left: 16px;
+    background: url(data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22utf-8%22%3F%3E%0A%3C!DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%2FDTD%2Fsvg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%0A%09%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220%22%20y%3D%220%22%20viewBox%3D%220%200%2017%2020%22%0A%09%20enable-background%3D%22new%200%200%2017%2020%22%20xml%3Aspace%3D%22preserve%22%3E%0A%3Cpath%20fill%3D%22%23000000%22%20d%3D%22M5.6%2C19.4L17%2C1.9l-1.7-1L5.4%2C16.1l-4-4.7L0%2C12.9L5.6%2C19.4z%22%2F%3E%0A%3C%2Fsvg%3E%0A) 0 0/100% auto no-repeat;
+}
+
+.products_sort_mobile{
+    position: relative;
+    z-index: 33;
+    margin-bottom: 20px;
+
 }

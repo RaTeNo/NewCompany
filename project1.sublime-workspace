@@ -4,6 +4,14 @@
 		"selected_items":
 		[
 			[
+				"ba",
+				"background-attachment\tproperty"
+			],
+			[
+				"wor",
+				"word-break\tproperty"
+			],
+			[
 				"font",
 				"font-family\tproperty"
 			],
@@ -234,19 +242,24 @@
 	],
 	"file_history":
 	[
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/styles.css",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-map.php",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/index 2.php",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/response_479.css",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/header 3.php",
 		"/C/xampp/htdocs/vers/category.html",
 		"/C/xampp/htdocs/vers/css/response_767.css",
+		"/C/xampp/htdocs/vers/js/scripts.js",
 		"/C/xampp/htdocs/vers/css/styles.css",
+		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/scripts.js",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/footer.php",
-		"/C/xampp/htdocs/vers/js/scripts.js",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/style 2.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/divination 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/divination.php",
 		"/C/xampp/htdocs/vers/index.html",
 		"/C/xampp/htdocs/vers/css/response_1185.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/single.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-map.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-d.php",
 		"/C/xampp/htdocs/vers/css/response_479.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/.htaccess",
@@ -337,7 +350,6 @@
 		"/C/xampp/htdocs/vers2/.editorconfig",
 		"/C/Users/RaTeN/AppData/Roaming/Sublime Text 3/Packages/HTML-CSS-JS Prettify/HTMLPrettify.sublime-settings",
 		"/C/xampp/htdocs/vers2/css/ion.rangeSlider.css",
-		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/AppData/Roaming/Sublime Text 3/Packages/User/.jsbeautifyrc",
 		"/C/xampp/htdocs/vers2/cart.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/scripts 2.js",
@@ -357,15 +369,11 @@
 		"/C/xampp/htdocs/photo/wp-content/themes/raten/index.php",
 		"/C/xampp/htdocs/photo/wp-content/themes/raten/footer.php",
 		"/C/xampp/htdocs/photo/wp-content/themes/raten/functions.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/scripts.js",
-		"/C/xampp/htdocs/photo/wp-content/themes/raten/js2/scripts.js",
-		"/C/xampp/htdocs/photo/wp-content/themes/raten/index.html",
-		"/C/xampp/htdocs/photo/wp-content/themes/raten/page-gallery.php",
-		"/C/xampp/htdocs/photo/wp-content/themes/raten/gallery.html"
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/scripts.js"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -484,7 +492,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\vers\\project1.sublime-project"
+				"C:\\xampp\\htdocs\\vers2\\project2.sublime-project"
 			]
 		],
 		"width": 380.0

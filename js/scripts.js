@@ -663,6 +663,21 @@ $(function(){
 		
 	})
 
+	$('.products_sort_mobile .schema-order__link').click(function(e){
+		e.preventDefault()	
+		if($(this).hasClass("active"))
+		{
+			$(this).removeClass("active");
+			$(".schema-order__popover").hide();
+		}	
+		else
+		{
+			$(this).addClass("active");
+			$(".schema-order__popover").show();
+		}
+
+	})
+
 
 	// Логотип
 	$('.resizeble-font').each(function () {
