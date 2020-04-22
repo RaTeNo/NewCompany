@@ -242,22 +242,22 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/vers/css/styles.css",
+		"/C/xampp/htdocs/vers/js/scripts.js",
+		"/C/xampp/htdocs/vers/category.html",
+		"/C/xampp/htdocs/vers/index.html",
+		"/C/xampp/htdocs/vers/css/response_767.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/styles.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-map.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/index 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/response_479.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/header 3.php",
-		"/C/xampp/htdocs/vers/category.html",
-		"/C/xampp/htdocs/vers/css/response_767.css",
-		"/C/xampp/htdocs/vers/js/scripts.js",
-		"/C/xampp/htdocs/vers/css/styles.css",
 		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/scripts.js",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/footer.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/style 2.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/divination 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/divination.php",
-		"/C/xampp/htdocs/vers/index.html",
 		"/C/xampp/htdocs/vers/css/response_1185.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/single.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-d.php",
@@ -387,6 +387,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".block_head .desc",
+			"active",
 			"owl",
 			"календарь",
 			"pritcha",
@@ -492,7 +494,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\vers2\\project2.sublime-project"
+				"C:\\xampp\\htdocs\\vers4\\project4.sublime-project"
 			]
 		],
 		"width": 380.0
