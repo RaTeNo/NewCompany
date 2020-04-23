@@ -3758,6 +3758,7 @@ opacity:0.3;
     line-height: 23px;
     width: calc(100% - 178px);
     letter-spacing: .28px;
+    word-break: break-word;
 }
 
 .services .service .link {
@@ -5814,7 +5815,6 @@ footer .links {
 }
 
 footer .links>* {
-    transform: translateZ(0);
     --webkit-column-break-inside: avoid;
     page-break-inside: avoid;
     break-inside: avoid;
