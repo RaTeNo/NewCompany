@@ -758,6 +758,7 @@
     .main_slider2 .img
     {
         width: 320px;
+        height: 360px;
         margin-right: 0;
     }
 
@@ -1382,9 +1383,9 @@
         padding-right: 30px;
     }
 
-    .socials_block .socials a + a
+    .socials_block .socials a 
     {
-        margin-left: 15px;
+         margin: 0 10px 10px;
     }
 
     .socials_block .socials img

@@ -674,8 +674,8 @@
         margin-top: 20px;
     }
     
-    .socials_block .socials a + a {
-        margin-left: 10px;
+    .socials_block .socials a {
+        margin: 0 5px 10px;
     }
 
     .socials_block .socials img {

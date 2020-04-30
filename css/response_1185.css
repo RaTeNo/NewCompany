@@ -955,7 +955,7 @@
     .services .service .info
     {
         padding: 20px;
-
+        flex-wrap: wrap;
         border-radius: 18px 18px 44px 44px;
     }
 
