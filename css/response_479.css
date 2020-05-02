@@ -788,7 +788,11 @@
         margin-right: auto;
     }
     
-    #thanks .icon img{width:105px;}
+    #thanks .icon {
+        width: 70px;
+        height: 70px;
+        padding: 20px;
+    }
     #thanks .title{font-size:22px;line-height:28px;}
     #thanks .desc{font-size:18px;line-height:24px;}
 
