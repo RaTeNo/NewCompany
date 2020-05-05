@@ -1207,10 +1207,14 @@
     .cart_info .product .price.total{
         text-align: left;
     }
-    
-    .products_sort {
-        display: none;
+
+    .products_sort ul{
+        display: flex;
+        flex-wrap: wrap;
     }
+
+    
+    
     .products_sort b{
         display: block;
     }
@@ -1221,6 +1225,12 @@
 
     .products_sort_mobile{
         display: block;
+    }
+
+    .sorting_switcher li {
+        padding: 0 9px;
+        font-size: 12px;
+        line-height: 12px;
     }
 
     /*---------------
