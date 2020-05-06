@@ -6176,3 +6176,120 @@ color: #7c7c7c;
     margin-bottom: 20px;
 
 }
+
+
+aside .block.submit{
+    display: flex;
+    background: none;
+}
+
+aside .block.submit .reset{
+    height: 54px;
+    width: 54px;
+    background: var(--main_color1);
+    box-shadow: 0 10px 25px var(--box-shadow-color);
+    border: none;
+    border-radius: 27px;
+    flex-shrink: 0;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+aside .block.submit .reset i
+{
+    width: 20px;
+    height: 20px;
+    background: #fff;
+    display: block;
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+}
+aside .block.submit .reset i:before, aside .block.submit .reset i:after {
+    position: absolute;
+    left: 9px;
+    top: 4px;
+    content: ' ';
+    height: 12px;
+    width: 2px;
+    background-color: var(--main_color1);
+}
+
+aside .block.submit .reset i:before {
+    transform: rotate(45deg);
+}
+
+aside .block.submit .reset i:after {
+    transform: rotate(-45deg);
+}
+
+
+/*пустая корзина*/
+.cart_empty {
+    width: 600px;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    text-align: center;
+}
+
+.cart_empty  .icon{
+    width: 139px;
+    height: 139px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 4px;
+    background: var(--main_color1);
+}
+
+.cart_empty  .icon svg {
+    width: 100%;
+    height: 100%;
+}
+
+.cart_empty  .title {
+    color: #0b162b;
+    font-size: 37px;
+    font-weight: bold;
+    line-height: 61px;
+    margin-top: 10px;
+}
+
+.cart_empty  .title span {
+    color: var(--main_color2);
+}
+
+.cart_empty  .desc {
+    color: #b5b5b5;
+    font-size: 33px;
+    font-weight: 500;
+    line-height: 49px;
+    margin-top: 10px;
+}
+
+.cart_empty  .links{
+    display: flex;
+    justify-content: center;
+}
+
+.cart_empty  .link{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 55px;
+    display: inline-block;
+    width: 180px;
+    height: 55px;
+    margin-top: 26px;
+    vertical-align: top;
+    text-decoration: none;
+    border-radius: 27px;
+    background: var(--main_color1);
+}
+
+.cart_empty  .link.link_catalog{
+    background: var(--main_color2);
+    margin-left:20px;
+}

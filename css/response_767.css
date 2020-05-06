@@ -988,11 +988,10 @@
         border-radius: 44px;
     }
 
-    .image_tips .image .info
-    {
-        top: 100%;
+    .image_tips .image .info {
+        top: 100% !important;
         right: 0;
-        left: 0;
+        left: 0 !important;
 
         width: 100%;
 
@@ -1236,4 +1235,36 @@
     /*---------------
         PopUp
     ---------------*/
+
+
+    .cart_empty{
+        padding: 0px;
+    }
+
+    .cart_empty .title {
+        font-size: 25px;
+        line-height: 31px;
+    }
+
+    .cart_empty .desc {
+        font-size: 21px;
+        line-height: 29px;
+    }
+
+    .cart_empty .link {
+        margin-top: 25px;
+    }
+
+    .cart_empty .link {
+        font-size: 13px;
+        line-height: 45px;
+        width: 150px;
+        height: 45px;
+    }
+
+    .cart_empty .icon {
+        width: 95px;
+        height: 95px;
+    }
+    
 }
