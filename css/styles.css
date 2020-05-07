@@ -1584,8 +1584,7 @@ aside .filter .submit_btn {
     text-transform: uppercase;
     border: none;
     border-radius: 27px;
-    background:var(--main_color1);
-    box-shadow: 0 10px 25px var(--box-shadow-color);
+    background:var(--main_color2);
 }
 
 aside>*:last-child {
@@ -6234,14 +6233,15 @@ aside .block.submit .reset i:after {
     text-align: center;
 }
 
-.cart_empty  .icon{
+.cart_empty .icon{
     width: 139px;
     height: 139px;
     margin: 0 auto;
     margin-bottom: 20px;
-    padding: 20px;
-    border-radius: 4px;
+    padding: 30px;
+    border-radius: 50%;
     background: var(--main_color1);
+        box-shadow: 0 10px 25px var(--box-shadow-color);
 }
 
 .cart_empty  .icon svg {

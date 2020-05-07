@@ -351,7 +351,6 @@
 
     aside .filter > *
     {
-        transform: translateZ(0);
         pointer-events: auto;
 
         --webkit-column-break-inside: avoid;
