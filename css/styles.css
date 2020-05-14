@@ -3839,7 +3839,7 @@ opacity:0.3;
     padding: 10px;
     background: rgba(0, 0, 0, 0.6);
     content: '';
-    z-index: 100;
+    z-index: 98;
     border-radius: 22px;
     justify-content: center;
 }
