@@ -6293,3 +6293,10 @@ aside .block.submit .reset i:after {
     background: var(--main_color2);
     margin-left:20px;
 }
+
+.poll .desc{
+    overflow-x: auto;
+}
+.poll .desc table{
+    width: 100% !important;
+}
