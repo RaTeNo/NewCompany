@@ -1732,9 +1732,14 @@ aside>*:last-child {
     background: #ddd;
 }
 
+.main_slider .owl-carousel .owl-stage{
+    display: flex;
+}
+
 .main_slider .slide {
     position: relative;
     overflow: hidden;
+    height: 100%;
 }
 
 .main_slider .slide:before {
