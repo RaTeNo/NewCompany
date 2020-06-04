@@ -246,6 +246,9 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/vers/article.html",
+		"/C/xampp/htdocs/vers/product.html",
+		"/C/xampp/htdocs/vers5/js/functions.js",
 		"/C/xampp/htdocs/vers/css/response_1023.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/index 2.php",
 		"/C/xampp/htdocs/vers/css/styles.css",
@@ -325,7 +328,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/styles.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-map.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/header 3.php",
-		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/scripts.js",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/style 2.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/divination 2.php",
@@ -371,13 +373,11 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/single 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/content.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/page 2.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/category 2.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/main.js",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/footer.php"
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/category 2.php"
 	],
 	"find":
 	{
-		"height": 48.0
+		"height": 27.0
 	},
 	"find_in_files":
 	{
@@ -519,7 +519,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\vers3\\project3.sublime-project"
+				"C:\\xampp\\htdocs\\vers2\\project2.sublime-project"
 			]
 		],
 		"width": 380.0
