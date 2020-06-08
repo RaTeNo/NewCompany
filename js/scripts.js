@@ -5,7 +5,7 @@ $(function(){
 		margin: 0,
 		nav: true,
 		dots: true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		autoplay: true,
 		autoplayTimeout: 5000,
@@ -46,7 +46,7 @@ $(function(){
 		margin: 0,
 		nav: true,
 		dots: true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		autoplay: true,
 		autoplayTimeout: 5000,
@@ -77,7 +77,7 @@ $(function(){
 		margin: 0,
 		nav: true,
 		dots: true,		
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		autoplay: true,
 		autoplayTimeout: 5000,
@@ -123,7 +123,7 @@ $(function(){
 		nav: true,
 		dotsEach : true,
 		dots: true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		onInitialized: function(event){
 			setTimeout(function(){
@@ -162,7 +162,7 @@ $(function(){
 		nav: true,
 		dots: true,
 		dotsEach : true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -218,7 +218,7 @@ $(function(){
 		items: 1,
 		nav: true,
 		dots: true,
-		loop: true,
+		loop: false,
 		dotsEach : true,
 		smartSpeed: 750,
 		responsive: {
@@ -276,7 +276,7 @@ $(function(){
 		nav: true,
 		dots: true,
 		dotsEach : true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -330,7 +330,7 @@ $(function(){
 		nav: true,
 		dotsEach : true,
 		dots: true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
@@ -387,7 +387,7 @@ $(function(){
 		nav: true,
 		dots: true,
 		dotsEach : true,
-		loop: true,
+		loop: false,
 		smartSpeed: 750,
 		responsive: {
 	        0:{
