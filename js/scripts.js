@@ -485,6 +485,17 @@ $(function(){
     	e.preventDefault()
     });
 
+   	if($('.mob_header .contacts a').length>2)
+	{	
+		$('.mob_header .contacts a').each(function( index, element ) {
+			if(index>2)
+			{
+				$(element).clone(true).appendTo(".mob_header .more_block").addClass("new_contact");
+				(element).remove();
+			}
+		});
+	}
+
 
 
 
