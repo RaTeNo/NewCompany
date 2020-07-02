@@ -679,7 +679,9 @@
         margin-left: 16px;
     }
 
-
+    .first_section .cont{
+        padding-top:50px;
+    }
 
     .first_section .info
     {
@@ -705,7 +707,15 @@
     .first_section .img
     {
         width: 320px;
-        height: 345px;
+        height: 260px;
+    }
+
+    .first_section .img:before{
+        position: absolute;
+        width: 350px;
+        height: 350px; 
+        right: -50px;
+        bottom:-70px;
     }
 
 
@@ -1561,4 +1571,25 @@
     /*---------------
         PopUp
     ---------------*/
+    .about .img, .how_we_work .img, .big_boss_quote .img, .director_letter .img, .quiz_poll .img{
+        width: 320px;
+        height: 260px;
+        margin-bottom:35px;
+    }
+
+    .how_we_work .img:before, .big_boss_quote .img:before, .director_letter .img:before, .quiz_poll    .img:before
+    {        
+        width: 350px;    
+        height: 350px;
+        left: -50px;
+        bottom: -70px;
+    }
+    
+    .about .img:before{
+        width: 350px;    
+        height: 350px;
+        right: -50px;
+        bottom: -70px;
+    }
+
 }

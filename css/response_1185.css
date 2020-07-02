@@ -401,8 +401,8 @@
 
     .first_section .img
     {
-        width: 475px;
-        height: 565px;
+        width: 502px;
+        height: 380px;
     }
 
 
@@ -1105,4 +1105,9 @@
     /*---------------
         PopUp
     ---------------*/
+
+    .about .img, .how_we_work .img, .big_boss_quote .img, .director_letter .img, .quiz_poll .img{
+        width: 400px;
+        height: 380px;
+    }
 }
