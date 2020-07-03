@@ -5505,9 +5505,7 @@ button:disabled{
 }
 
 .quiz_poll .step .desc {
-    color: #0b162b;
-    font-size: 14px;
-    line-height: 22px;
+    color: #0b162b;   
     margin-top: 15px;
     opacity: .84;
 }
@@ -5527,23 +5525,25 @@ button:disabled{
 }
 
 .quiz_poll .step .links>* {
-    color: #fff;
     font-family: var(--font_family);
-    font-size: 10px;
-    font-weight: 700;
-    line-height: 39px;
-    display: block;
-    min-width: 115px;
-    height: 37px;
     margin-left: 20px;
-    padding: 0 30px;
     cursor: pointer;
-    letter-spacing: 1.32px;
-    text-decoration: none;
     border: none;
-    border-radius: 18.5px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 49px;
+    display: inline-block;
+    min-width: 206px;
+    height: 49px;
+    padding: 0 40px;
+    text-align: center;
+    vertical-align: top;
+    text-decoration: none;
+    letter-spacing: 2px;
+    border-radius: 25px;
     background: var(--main_color1);
-    box-shadow: 0 6px 13px var(--box-shadow-color);
+    box-shadow: 0 9px 23px var(--box-shadow-color);
 }
 
 .quiz_poll .success {
