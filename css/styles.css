@@ -6366,17 +6366,17 @@ header.fixed .info {
     }
 }
 
-.about .img, .how_we_work .img, .big_boss_quote .img, .director_letter .img, .quiz_poll .img{
+.how_we_work .img, .big_boss_quote .img, .director_letter .img, .quiz_poll .img{
     width: 476px;
-    height: 360px;
+    height:476px;
 }
 
 .how_we_work .img>*, .big_boss_quote .img>*, .director_letter  .img>*, .quiz_poll   .img>*{
-    border-radius: 42px 170px 42px 42px;
+    border-radius: 70px;
 }
 
 .about .img>*{
-    border-radius: 170px 42px  42px 42px;
+    border-radius: 70px;
 }
 
 
@@ -6388,14 +6388,25 @@ header.fixed .info {
     height: 100%;
     background: #FFFFFF;
     box-shadow: 0px 16px 42px rgba(0, 0, 0, 0.123088);
-    border-radius: 61px;
+    border-radius: 93px;
     top: 35px;
     left: -35px;
     content: "";
     z-index: -1;
 }
 
-.how_we_work .img:before, .big_boss_quote .img:before, .director_letter .img:before, .quiz_poll    .img:before{
+.how_we_work .img:before{
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    background: linear-gradient(360deg, var(--main_color1) 0%, rgba(255, 255, 255, 0.0001) 100%);
+   border-radius: 134px;
+    bottom: -120px;
+    left: -130px;
+    content: "";
+    z-index: -1;
+}
+.big_boss_quote .img:before{
     position: absolute;
     width: 538px;
     height: 538px;
@@ -6406,7 +6417,35 @@ header.fixed .info {
     content: "";
     z-index: -1;
 }
+.director_letter .img:before{
+    position: absolute;
+    width: 538px;
+    height: 538px;
+    background: linear-gradient(315deg, var(--main_color1) 0%, rgba(255, 255, 255, 0.0001) 100%);
+    border-radius: 134px;
+    bottom: -120px;
+    left: -130px;
+    content: "";
+    z-index: -1;
+}
+.quiz_poll    .img:before{
+    position: absolute;
+    width: 500px;
+    height: 370px;
+    background: linear-gradient(315deg, var(--main_color1) 0%, rgba(255, 255, 255, 0.0001) 100%);
+    border-radius: 78px;
+    bottom: -25px;
+    left: -130px;
+    content: "";
+    z-index: -1;
+    transform: rotate(45deg);
+}
 
+
+.about .img{
+    width: 450px;
+    height: 450px;
+}
 .about .img:after{
     position: absolute;
     top: 0;
@@ -6415,7 +6454,7 @@ header.fixed .info {
     height: 100%;
     background: #FFFFFF;
     box-shadow: 0px 16px 42px rgba(0, 0, 0, 0.123088);
-    border-radius: 61px;
+    border-radius: 93px;
     top: 35px;
     left: 35px;
     content: "";
@@ -6426,10 +6465,31 @@ header.fixed .info {
     position: absolute;
     width: 538px;
     height: 538px;
-    background: linear-gradient(360deg, var(--main_color2) 0%, rgba(255, 255, 255, 0.0001) 100%);
-    border-radius: 50%;
+    background: linear-gradient(315deg, var(--main_color2) 0%, rgba(255, 255, 255, 0.0001) 100%);
+    border-radius: 78px;
     bottom: -120px;
     right: -130px;
     content: "";
     z-index: -1;
+    transform:rotate(45deg);
+}
+
+
+
+
+.poll .desc ul, .poll .desc ol, .text_block ul, .text_block ol{
+    margin: 30px 0 30px 50px;
+}
+
+.poll .desc table, .text_block table{
+    margin:20px 0;
+}
+
+
+.poll .desc table td, .text_block table td{
+    padding: 20px;
+}
+
+.product_info .description{
+    overflow: auto;
 }
