@@ -166,11 +166,9 @@ $(function(){
 
 
 	// Моб. версия
-	if( $(window).width() < 360 ){
-		$('meta[name=viewport]').attr('content', 'width=360px, user-scalable=no, minimum-scale=1, maximum-scale=1')
-	} else {
-		$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
-	}
+	if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+
+
 
 
 	// Моб. меню
@@ -292,3 +290,12 @@ var supportsCssVars = function() {
 
     return support
 }
+
+
+
+$(window).resize(() => {
+	// Моб. версия
+	$('meta[name=viewport]').attr('content', 'width=device-width, initial-scale=1, maximum-scale=1')
+
+	if ($(window).width() < 360) $('meta[name=viewport]').attr('content', 'width=360, user-scalable=no')
+})
