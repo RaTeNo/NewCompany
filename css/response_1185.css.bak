@@ -1109,7 +1109,7 @@
         height: 380px;
     }
 
-    .product_info  .cart_link
+        .product_info  .cart_link
     {
         position: relative;
         right: 0 !important;

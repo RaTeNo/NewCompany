@@ -1294,7 +1294,7 @@
     }
 
     .how_we_work .img:after, .big_boss_quote .img:after, .director_letter .img:after, .quiz_poll .img:after{
-        top: 25px;
+        top: 16px;
         left: 0px;    
     }
 
@@ -1308,6 +1308,13 @@
         left: 13px;
         bottom: -45px;
         border-radius: 70px;
+    }
+
+     .product_info .image
+    {
+        width: 100%;
+        margin: 0;
+        padding-bottom: 100%;
     }
 
 }

@@ -802,7 +802,7 @@
     .product_info .buy .price{
         flex-wrap: wrap;
     }
-    .product_info .buy .price .val + .val{
+    .product_info .buy .price .val:not(.old){
         width: 100%;
         text-align: right;
     }
