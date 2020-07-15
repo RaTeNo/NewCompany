@@ -6574,3 +6574,8 @@ header.fixed .info {
 .product_info .buy .price .val.old span{
     color: #959595;
 }
+
+
+.poll .desc img{
+    max-width: 100%;
+}
