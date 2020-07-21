@@ -1750,6 +1750,10 @@ aside>*:last-child {
     filter: none;
 }
 
+.first_section .img.no_mask:after, .first_section .img.no_mask:before{
+    display: none;
+}
+
 .first_section .img.no_mask>* {
     position: relative;
     width: auto;
