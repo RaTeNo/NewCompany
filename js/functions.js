@@ -194,18 +194,36 @@ $(function(){
     if( is_touch_device() ){
     	$('header .menu .item > a.sub_link').addClass('touch_link')
 
-    	$('body').on('click', 'header .menu .item > a.sub_link', function(e) {
+    	$('body').on('click', 'header .flexMenu-popup > .item > a.sub_link', function(e) {
     		if( $(this).next().css('visibility') == 'hidden' ) {
 	    		e.preventDefault()
 
 				$('header .menu .sub_menu').removeClass('show')
 
 				$(this).next().addClass('show')
+
     		}
     		else
     		{
     			e.preventDefault()
 				$('header .menu .sub_menu').removeClass('show')
+    		}
+	    })
+
+	    $('body').on('click', 'header .menu .item .item > a.sub_link', function(e) {
+
+    		if(!$(this).next().hasClass("show")) {
+	    		e.preventDefault()
+
+				$('header .menu .item .item .sub_menu').removeClass('show')
+
+				$(this).next().addClass('show')			
+
+    		}
+    		else
+    		{
+    			e.preventDefault()
+				$('header .menu .item .item .sub_menu').removeClass('show')
     		}
 	    })
     }

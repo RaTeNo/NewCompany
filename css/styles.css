@@ -6585,3 +6585,45 @@ header.fixed .info {
 .poll .desc img{
     max-width: 100%;
 }
+
+
+
+/*новое меню*/
+
+header .menu .item .sub_menu  .sub_menu{
+    top: 0;
+    left: calc(100% + 30px);
+}
+
+header .menu .item:hover .sub_menu  .sub_menu{
+    visibility: hidden;
+    opacity: 0;
+}
+
+header .menu .item .item:hover .sub_menu{
+    top: 0% !important;
+    visibility: visible !important;
+    opacity: 1 !important;
+    left: 100%;
+}
+
+header .menu .sub_menu a.sub_link span:after {
+    position: absolute;
+    top: 50%;
+    right: -1px;
+    display: block;
+    width: 7px;
+    height: 7px;
+    margin-top: -6px;
+    content: '';
+    transform: rotate(-45deg);
+    border-bottom: 2px solid #fff;
+    border-left: 2px solid #fff;
+}
+header .flexMenu-popup .item .item .sub_menu{
+    left: calc(-100% + 30px);
+}
+
+header .flexMenu-popup .item .item:hover .sub_menu{
+    left: -100%;
+}
