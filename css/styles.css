@@ -6627,3 +6627,169 @@ header .flexMenu-popup .item .item .sub_menu{
 header .flexMenu-popup .item .item:hover .sub_menu{
     left: -100%;
 }
+
+
+
+
+
+
+/********************/
+/***CONTACT BUTTON***/
+/********************/
+#contactButton {
+  z-index: 999999;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+}
+
+#shadow-element {
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+    z-index: 99;
+}
+
+.contact-button {
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    border-radius: 50%;
+    overflow: hidden;
+    align-items: center;
+    background: var(--main_color1) !important;
+}
+
+.contact-button svg{
+    width: 30px;
+    height: 30px;
+}
+
+.contact-button:hover,
+.contact-button:active,
+.contact-button:focus,
+.contact-button:visited {
+  color: #fff !important;
+}
+
+.shadow {
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.4);
+}
+
+.shadow:hover {
+  box-shadow: 2px 2px 6px rgba(0,0,0,0.7);
+}
+
+.main-button {
+  -webkit-transition: transform 0.7s; /* Safari */
+  transition: transform 0.7s;
+  box-shadow: none !important
+}
+
+.main-button.up {
+  transform: rotate(720deg);
+}
+
+.contact-button-out {
+  display: none !important
+}
+
+#firstButton{
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 100;
+  background: var(--main_color2) !important;
+}
+
+#secondButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 98;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#secondButton.up {
+  bottom: 65px;
+  opacity: 1;
+}
+
+#thirdButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 97;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#thirdButton.up {
+  bottom: 130px;
+  opacity: 1;
+}
+
+#fourthButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 96;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#fourthButton.up {
+  bottom: 195px;
+  opacity: 1;
+}
+
+#fifthButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 95;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#fifthButton.up {
+  bottom: 260px;
+  opacity: 1;
+}
+
+#sixthButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 94;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#sixthButton.up {
+  bottom: 325px;
+  opacity: 1;
+}
+
+#seventhButton {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 93;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#seventhButton.up {
+  bottom: 390px;
+  opacity: 1;
+}
