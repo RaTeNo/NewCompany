@@ -870,22 +870,22 @@
 							</div>
 
 
-							<form action="" class="form">
+							<form action="" class="form"  data-parsley-validate> 
 								<div class="line">
 									<div class="field">
-										<input type="text" name="" value="" class="input" placeholder="Ваше имя" required>
+										<input type="text" name="" value="" class="input" placeholder="Ваше имя" data-parsley-required data-parsley-minlength='2' data-parsley-maxlength='250'>
 									</div>
 								</div>
 
 								<div class="line">
 									<div class="field">
-										<input type="tel" name="" value="" class="input" placeholder="Телефон" required>
+										<input type="tel" name="" value="" class="input" placeholder="Телефон" data-parsley-required data-parsley-minlength='10' data-parsley-maxlength='25'>
 									</div>
 								</div>
 
 								<div class="line">
 									<div class="field">
-										<textarea name="" placeholder="Сообщение" required></textarea>
+										<textarea name="" placeholder="Сообщение" data-parsley-required  data-parsley-minlength='2' data-parsley-maxlength='2000'></textarea>
 									</div>
 								</div>
 
@@ -2328,9 +2328,12 @@
 		<script src="js/ion.rangeSlider.min.js"></script>
 		<script src="js/countdown.js"></script>
 		<script src="js/before-after.min.js"></script>
+		<script src="js/parsley.min.js"></script>
+		<script src="js/i18n/ru.js"></script>
 		<script src="js/functions.js"></script>
 		<script src="js/scripts.js"></script>
 		<script src="js/file.js"></script>
 		<script src="https://cdn.scaleflex.it/plugins/js-cloudimage-360-view/2/js-cloudimage-360-view.min.js"></script>
+
 	</body>
 </html>

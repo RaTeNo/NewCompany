@@ -710,6 +710,22 @@ $(function(){
 	}
 
 
+	$('.tab_filter_title').click(function(e){
+		e.preventDefault()	
+		if($(this).hasClass("active"))
+		{
+			$(this).removeClass("active");
+			$(this).next().slideUp();
+		}	
+		else
+		{
+			$(this).addClass("active");
+			$(this).next().slideDown();
+		}
+
+	})
+
+
 	// Логотип
 	$('.resizeble-font').each(function () {
         let length = $(this).text().replace(/^\s+|\s+$|\(|\)|8-/gm, '').length,

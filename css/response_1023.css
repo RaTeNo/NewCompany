@@ -526,8 +526,6 @@
 
     .cart_info .cart_total .val
     {
-        font-size: 30px;
-        line-height: 38px;
     }
 
 
@@ -1616,28 +1614,6 @@
     }
 
 
-    .products_category .flex.mob_slider {
-        display: block;
-        overflow: auto;
-        margin-right: -30px;
-        margin-bottom: 0;
-        margin-left: -30px;
-        padding: 0 30px;
-        white-space: nowrap;
-    }
-
-    .products_category .flex.mob_slider > * {
-        display: inline-block;
-        width: 270px;
-        margin-bottom: 0;
-        margin-left: 0;
-        vertical-align: top;
-        white-space: normal;
-    }
-
-    .products_category .flex.mob_slider > * + * {
-        margin-left: 16px;
-    }
 
 
     .products_category .img img{
@@ -1657,6 +1633,10 @@
     .products_category .info .price{
         font-size: 18px;
         line-height: 22px;
+    }
+
+    .block_checkform{
+        flex-wrap: wrap;
     }
 
 }

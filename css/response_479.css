@@ -241,7 +241,7 @@
     {
         text-align: center;
 
-        justify-content: center;
+        justify-content: flex-end;
     }
 
     .cart_info .cart_total .checkout_link
@@ -805,5 +805,18 @@
     .product_info .buy .price .val + .val{
         width: 100%;
         text-align: right;
+    }
+
+     .products_category .flex>*{
+        width: calc(100%);
+    }
+
+    .promocode_form{
+        flex-wrap: wrap;
+    }
+    .promocode_form button{
+        margin-top:10px;
+        margin-left:0;
+        width: 100%;
     }
 }

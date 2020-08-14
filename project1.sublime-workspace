@@ -4,28 +4,32 @@
 		"selected_items":
 		[
 			[
+				"flex-",
+				"flex-wrap\tproperty"
+			],
+			[
+				"in",
+				"inline-block\tdisplay"
+			],
+			[
+				"sp",
+				"space-between\tjustify-content"
+			],
+			[
+				"pad",
+				"padding-bottom\tproperty"
+			],
+			[
+				"paddin",
+				"padding-top\tproperty"
+			],
+			[
 				"paddi",
 				"padding-top\tproperty"
 			],
 			[
-				"pad",
-				"padding\tproperty"
-			],
-			[
-				"paddin",
-				"padding-right\tproperty"
-			],
-			[
 				"a",
 				"auto\tmargin-left"
-			],
-			[
-				"in",
-				"input\tTag"
-			],
-			[
-				"flex-",
-				"flex-shrink\tproperty"
 			],
 			[
 				"ba",
@@ -192,19 +196,10 @@
 	"buffers":
 	[
 		{
-			"file": "css/styles.css",
+			"file": "cart.html",
 			"settings":
 			{
-				"buffer_size": 125863,
-				"encoding": "UTF-8",
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "index.html",
-			"settings":
-			{
-				"buffer_size": 72045,
+				"buffer_size": 12125,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -272,8 +267,23 @@
 	],
 	"file_history":
 	[
-		"/C/xampp/htdocs/vers/js/scripts.js",
+		"/C/xampp/htdocs/vers/css/response_479.css",
+		"/C/xampp/htdocs/vers/css/response_1185.css",
+		"/C/xampp/htdocs/vers/css/response_1023.css",
 		"/C/xampp/htdocs/vers/css/styles.css",
+		"/C/xampp/htdocs/vers/cart.html",
+		"/C/xampp/htdocs/vers/css/response_767.css",
+		"/C/Users/RaTeN/AppData/Local/Temp/Rar$DRa40888.4346/index.html",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/home.php",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/style 2.css",
+		"/C/xampp/htdocs/vers/category.html",
+		"/C/xampp/htdocs/vers/js/scripts.js",
+		"/C/xampp/htdocs/vers/product.html",
+		"/C/Users/RaTeN/Downloads/Path (10).svg",
+		"/C/Users/RaTeN/Downloads/Path (9).svg",
+		"/C/xampp/htdocs/vers/cat.html",
+		"/C/xampp/htdocs/vers/contacts.html",
+		"/C/xampp/htdocs/vers/index.html",
 		"/C/Users/RaTeN/Downloads/icons8-viber.svg",
 		"/C/xampp/htdocs/vers/js/functions.js",
 		"/C/Users/RaTeN/Downloads/Shape (14).svg",
@@ -301,8 +311,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/widgets.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/footer 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/scripts.js",
-		"/C/xampp/htdocs/vers/index.html",
-		"/C/xampp/htdocs/vers/css/response_479.css",
 		"/C/Users/RaTeN/Downloads/envelope-solid.svg",
 		"/C/Users/RaTeN/Downloads/share-solid.svg",
 		"/C/Users/RaTeN/Downloads/phone-solid.svg",
@@ -319,7 +327,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/functions.php",
 		"/C/xampp/htdocs/taras/wp-content/themes/raten/footer.php",
 		"/C/xampp/htdocs/kudo/wp-content/themes/raten/header.php",
-		"/C/xampp/htdocs/vers/css/response_1023.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/response_767.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/response_1179.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/single.php",
@@ -349,7 +356,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/custom.js",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/category-news.php",
 		"/C/xampp/htdocs/vers/news.html",
-		"/C/xampp/htdocs/vers/category.html",
 		"/E/Работа 2020/Фишки/wp-ajax-pagination/src/AjaxPaginationPlugin.php",
 		"/E/Работа 2020/Фишки/wp-ajax-pagination/src/Frontend/Frontend.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/about-page.php",
@@ -358,9 +364,6 @@
 		"/C/Users/RaTeN/Downloads/Path (6).svg",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/header 2.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/styles 2.css",
-		"/C/xampp/htdocs/vers/css/response_767.css",
-		"/C/xampp/htdocs/vers/css/response_1185.css",
-		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/footer.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/header.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-contacts.php",
@@ -391,15 +394,7 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/archive-club.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-federation.php",
 		"/C/xampp/htdocs/kudo/wp-content/themes/raten/related_posts.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-docs.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-good.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/functions.js",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/scripts.js",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/index.html",
-		"/C/xampp/htdocs/vers/js/lozad.min.js",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/katalog.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/woocommerce.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/content-single-product.php"
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-docs.php"
 	],
 	"find":
 	{
@@ -417,6 +412,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			".cart_info .cart_total",
 			"header .menu .sub_menu",
 			"viber",
 			"fourthButton",
@@ -505,141 +501,19 @@
 			[
 				{
 					"buffer": 0,
-					"file": "css/styles.css",
+					"file": "cart.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 125863,
+						"buffer_size": 12125,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								123151,
-								123151
-							]
-						],
-						"settings":
-						{
-							"bracket_highlighter.busy": false,
-							"bracket_highlighter.locations":
-							{
-								"close":
-								{
-									"1":
-									[
-										123150,
-										123151
-									]
-								},
-								"icon":
-								{
-									"1":
-									[
-										"Packages/BracketHighlighter/icons/curly_bracket.png",
-										"region.purplish"
-									]
-								},
-								"open":
-								{
-									"1":
-									[
-										123132,
-										123133
-									]
-								},
-								"unmatched":
-								{
-								}
-							},
-							"bracket_highlighter.regions":
-							[
-								"bh_curly",
-								"bh_curly_center",
-								"bh_curly_open",
-								"bh_curly_close",
-								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
-								"bh_round",
-								"bh_round_center",
-								"bh_round_open",
-								"bh_round_close",
-								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
-								"bh_default",
-								"bh_default_center",
-								"bh_default_open",
-								"bh_default_close",
-								"bh_default_content",
-								"bh_angle",
-								"bh_angle_center",
-								"bh_angle_open",
-								"bh_angle_close",
-								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
-							],
-							"bs_sintax": "css",
-							"buffer_scroll_name": "f7ae305e",
-							"spell_check": false,
-							"syntax": "Packages/CSS/CSS.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 98960.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "index.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 72045,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								5459,
-								5459
+								9595,
+								9595
 							]
 						],
 						"settings":
@@ -652,24 +526,24 @@
 								{
 									"1":
 									[
-										5461,
-										5462
+										9595,
+										9596
 									]
 								},
 								"icon":
 								{
 									"1":
 									[
-										"Packages/BracketHighlighter/icons/tag.png",
-										"region.orangish"
+										"Packages/BracketHighlighter/icons/double_quote.png",
+										"region.greenish"
 									]
 								},
 								"open":
 								{
 									"1":
 									[
-										5405,
-										5406
+										9594,
+										9595
 									]
 								},
 								"unmatched":
@@ -683,68 +557,68 @@
 								"bh_curly_open",
 								"bh_curly_close",
 								"bh_curly_content",
-								"bh_square",
-								"bh_square_center",
-								"bh_square_open",
-								"bh_square_close",
-								"bh_square_content",
-								"bh_single_quote",
-								"bh_single_quote_center",
-								"bh_single_quote_open",
-								"bh_single_quote_close",
-								"bh_single_quote_content",
-								"bh_double_quote",
-								"bh_double_quote_center",
-								"bh_double_quote_open",
-								"bh_double_quote_close",
-								"bh_double_quote_content",
-								"bh_tag",
-								"bh_tag_center",
-								"bh_tag_open",
-								"bh_tag_close",
-								"bh_tag_content",
-								"bh_regex",
-								"bh_regex_center",
-								"bh_regex_open",
-								"bh_regex_close",
-								"bh_regex_content",
+								"bh_c_define",
+								"bh_c_define_center",
+								"bh_c_define_open",
+								"bh_c_define_close",
+								"bh_c_define_content",
 								"bh_round",
 								"bh_round_center",
 								"bh_round_open",
 								"bh_round_close",
 								"bh_round_content",
-								"bh_unmatched",
-								"bh_unmatched_center",
-								"bh_unmatched_open",
-								"bh_unmatched_close",
-								"bh_unmatched_content",
 								"bh_default",
 								"bh_default_center",
 								"bh_default_open",
 								"bh_default_close",
 								"bh_default_content",
+								"bh_double_quote",
+								"bh_double_quote_center",
+								"bh_double_quote_open",
+								"bh_double_quote_close",
+								"bh_double_quote_content",
+								"bh_single_quote",
+								"bh_single_quote_center",
+								"bh_single_quote_open",
+								"bh_single_quote_close",
+								"bh_single_quote_content",
 								"bh_angle",
 								"bh_angle_center",
 								"bh_angle_open",
 								"bh_angle_close",
 								"bh_angle_content",
-								"bh_c_define",
-								"bh_c_define_center",
-								"bh_c_define_open",
-								"bh_c_define_close",
-								"bh_c_define_content"
+								"bh_tag",
+								"bh_tag_center",
+								"bh_tag_open",
+								"bh_tag_close",
+								"bh_tag_content",
+								"bh_unmatched",
+								"bh_unmatched_center",
+								"bh_unmatched_open",
+								"bh_unmatched_close",
+								"bh_unmatched_content",
+								"bh_square",
+								"bh_square_center",
+								"bh_square_open",
+								"bh_square_close",
+								"bh_square_content",
+								"bh_regex",
+								"bh_regex_center",
+								"bh_regex_open",
+								"bh_regex_close",
+								"bh_regex_content"
 							],
 							"bs_sintax": "html",
-							"buffer_scroll_name": "ff4fa840",
+							"buffer_scroll_name": "3459458f",
 							"spell_check": false,
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 1920.0,
+						"translation.y": 4680.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -805,7 +679,7 @@
 	"project": "project1.sublime-project",
 	"replace":
 	{
-		"height": 90.0
+		"height": 50.0
 	},
 	"save_all_on_build": true,
 	"select_file":
@@ -825,7 +699,7 @@
 		[
 			[
 				"",
-				"C:\\xampp\\htdocs\\vers6\\project6.sublime-project"
+				"C:\\xampp\\htdocs\\vers_black\\project_black_1.sublime-project"
 			]
 		],
 		"width": 380.0
