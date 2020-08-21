@@ -6981,3 +6981,26 @@ aside .block .data.range{
     margin-top: 15px;
     border: none !important;
 }
+a.back_cat{
+    margin-top: -20px;
+    display: block;
+    margin-bottom: 20px;
+    color: #838383;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 22px;
+    vertical-align: top;
+    text-decoration: none;
+        position: relative;
+}
+.back_cat:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 13px;
+    height: 22px;
+    content: '';
+    opacity: .39;
+    background: url(../images/ic_back_link.svg) 0 50% no-repeat;
+}

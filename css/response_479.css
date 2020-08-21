@@ -819,4 +819,20 @@
         margin-left:0;
         width: 100%;
     }
+
+    .char div span:first-child{
+        display: block;
+        float:none;
+    }
+    .char div span+span{
+        display: inline-block;
+         float:none;
+         margin-left:0px;
+         margin-top:15px;
+    }
+
+    a.back_cat{
+         margin-top: 0px;
+         font-size: 16px;
+    }
 }

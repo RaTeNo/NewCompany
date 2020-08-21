@@ -357,10 +357,9 @@
         height: 100vh;
         padding: 30px;
 
-        pointer-events: none;
+        pointer-events: auto;
 
-        column-gap: 30px;
-        column-count: 2;
+        
     }
 
     aside .filter > *
