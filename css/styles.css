@@ -6794,6 +6794,70 @@ header .flexMenu-popup .item .item:hover .sub_menu{
 }
 
 
+#seventhButton2 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 93;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#seventhButton2.up {
+  bottom: 455px;
+  opacity: 1;
+}
+
+
+#seventhButton3 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 93;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#seventhButton3.up {
+  bottom: 515px;
+  opacity: 1;
+}
+
+
+#seventhButton4 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 93;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#seventhButton4.up {
+  bottom: 575px;
+  opacity: 1;
+}
+
+
+#seventhButton5 {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 93;
+  opacity: 0;
+  -webkit-transition: bottom 0.7s, opacity 0.4s; /* Safari */
+  transition: bottom 0.7s, opacity 0.4s;
+}
+
+#seventhButton5.up {
+  bottom: 635px;
+  opacity: 1;
+}
+
+
 
 /*parsley*/
 

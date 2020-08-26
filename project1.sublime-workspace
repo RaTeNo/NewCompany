@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"inlin",
+				"inline-block\tdisplay"
+			],
+			[
 				"flex-",
 				"flex-wrap\tproperty"
 			],
@@ -258,6 +262,15 @@
 	],
 	"file_history":
 	[
+		"/C/xampp/htdocs/vers/css/styles.css",
+		"/C/xampp/htdocs/vers/js/scripts.js",
+		"/C/Users/RaTeN/Downloads/odnoklassniki-brands.svg",
+		"/C/Users/RaTeN/Downloads/facebook-f-brands.svg",
+		"/C/Users/RaTeN/OneDrive/Desktop/HS/ic_email.svg",
+		"/C/xampp/htdocs/form_n/index.html",
+		"/C/xampp/htdocs/form_n/css/styles.css",
+		"/C/xampp/htdocs/form_n/css/response_479.css",
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/styles.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/front-page.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/rates-page.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/header.php",
@@ -265,7 +278,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/single.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/sidebar.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/scripts.js",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/styles.css",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/content-related.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/content-single.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/related-posts.php",
@@ -281,7 +293,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/test.php",
 		"/C/Users/RaTeN/Downloads/Filmy_60_FPS.m3u",
 		"/C/xampp/htdocs/vers/category.html",
-		"/C/xampp/htdocs/vers/css/styles.css",
 		"/C/xampp/htdocs/vers/css/response_479.css",
 		"/C/Users/RaTeN/Downloads/1.m3u",
 		"/C/Users/RaTeN/Downloads/1 (1).m3u",
@@ -292,7 +303,6 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/Rar$DRa40888.4346/index.html",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/home.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-2/style 2.css",
-		"/C/xampp/htdocs/vers/js/scripts.js",
 		"/C/xampp/htdocs/vers/product.html",
 		"/C/Users/RaTeN/Downloads/Path (10).svg",
 		"/C/Users/RaTeN/Downloads/Path (9).svg",
@@ -379,17 +389,11 @@
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/category-1.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/page-home.php",
 		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/single-people.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/response_479.css",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/styles.css",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/single.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/category.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/functions.php",
-		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/taxonomy-tournament_type.php",
-		"/E/Универсальность/raten1/page-home.php"
+		"/C/Users/RaTeN/AppData/Local/Temp/fz3temp-3/response_479.css"
 	],
 	"find":
 	{
-		"height": 27.0
+		"height": 48.0
 	},
 	"find_in_files":
 	{
@@ -403,6 +407,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"secondButton",
+			"whatsApp",
 			"f1890b",
 			"e5ae09",
 			"ffd044",
