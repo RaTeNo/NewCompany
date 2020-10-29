@@ -2923,6 +2923,15 @@ opacity:0.3;
     display: none;
     padding: 0 45px 40px;
     letter-spacing: .3px;
+    overflow-x: auto;
+}
+
+.faq .item .text_block table{
+    border:1px solid white;
+}
+
+.faq .item .text_block a{
+    color:#fff;
 }
 
 .director_letter .cont {

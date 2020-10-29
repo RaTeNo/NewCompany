@@ -835,4 +835,8 @@
          margin-top: 0px;
          font-size: 16px;
     }
+
+    .text_block table td {
+        padding: 10px;
+    }
 }
