@@ -839,4 +839,8 @@
     .text_block table td {
         padding: 10px;
     }
+
+    .text_block table th {
+        padding: 10px;
+    }
 }

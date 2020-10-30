@@ -2927,13 +2927,18 @@ opacity:0.3;
 }
 
 .faq .item .text_block table{
-    border:1px solid white;
+    border-color:white;
 }
 
 .faq .item .text_block a{
-    color:#fff;
-}
 
+}
+.text_block table th {
+    padding: 20px;
+}
+.text_block table{
+    border-collapse: collapse;
+}
 .director_letter .cont {
     position: relative;
     display: flex;
