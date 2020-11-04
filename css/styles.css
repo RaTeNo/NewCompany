@@ -7083,3 +7083,38 @@ a.back_cat{
     background: url(../images/ic_back_link.svg) 0 50% no-repeat;
 }
 
+
+.tab_filter_title span{
+    width: calc(100% - 37px);
+}
+
+aside .cats .tab_filter_title label:before{
+    top: 1px;
+}
+
+
+aside .cats .tab_filter_title label:after{
+    top: 3px;
+}
+
+aside .block .data_new{
+    padding-left:44px;
+}
+
+aside .cats label{
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 5px;
+}
+
+aside .cats label:before{
+    top:1px;
+}
+
+aside .cats label:after{
+    top:3px;
+}
+
+.tab_filter_title.active i{
+	height:20px;
+}
