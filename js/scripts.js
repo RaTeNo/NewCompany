@@ -729,6 +729,17 @@ $(function(){
 
 	})
 
+	$(".parent_cat").on('change', function() {
+		if($(this).attr("checked")){
+			$(this).parent().next().find("input").prop('checked', true);
+		}
+		else
+		{
+			$(this).parent().next().find("input").prop('checked', false);
+		}
+	});
+
+
 
 	// Логотип
 	$('.resizeble-font').each(function () {
