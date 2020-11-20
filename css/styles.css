@@ -3929,7 +3929,7 @@ opacity:0.3;
 
 .gallery .images .item {
     padding-bottom: calc(25% - 36px);
-    border-radius: 22px;
+    border-radius: 51px;
 }
 
 .products .flex {
