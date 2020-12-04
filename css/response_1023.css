@@ -1638,4 +1638,25 @@
         flex-wrap: wrap;
     }
 
+
+    .poll h2{
+        font-size: 20px;      
+    }
+
+    .poll h3{
+        font-size: 18px;       
+    }
+
+    .poll h4{
+        font-size: 18px;        
+    }
+
+    .poll h5{
+        font-size: 16px;       
+    }
+
+    .poll h6{
+        font-size: 15px;          
+    }
+
 }

@@ -7118,3 +7118,37 @@ aside .cats label:after{
 .tab_filter_title.active i{
 	height:20px;
 }
+
+
+
+.poll h1{
+    font-size: calc(var(--font_size_title));
+        margin:20px 0;
+}
+
+.poll h2{
+    font-size: calc(var(--font_size_title) - 6px);
+    margin:20px 0;
+}
+
+
+.poll h3{
+    font-size: calc(var(--font_size_title) - 10px);
+     margin:20px 0;
+}
+
+
+.poll h4{
+    font-size: calc(var(--font_size_title) - 12px);
+     margin:20px 0;
+}
+
+.poll h5{
+    font-size: calc(var(--font_size_title) - 16px);
+     margin:20px 0;
+}
+
+.poll h6{
+    font-size: calc(var(--font_size_title) - 20px);
+     margin:20px 0;
+}
