@@ -7152,3 +7152,8 @@ aside .cats label:after{
     font-size: calc(var(--font_size_title) - 20px);
      margin:20px 0;
 }
+
+
+.main_slider .owl-carousel .owl-nav button span {
+    font-family: 'Rubik', 'Arial', sans-serif;
+}
